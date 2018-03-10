@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(a)
   a.map { |w| w.upcase + "!"}
-  if a.include?(true)
+  if a.include?
     true
   else
     false
