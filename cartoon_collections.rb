@@ -3,11 +3,7 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(a)
-  if a.include?(true)
-    a.map!{ |w| "#{w.upcase}" + "!" }
-  else
-    a
-  end
+  
 end
 
 def long_planeteer_calls# code an argument here
