@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(a)
   a.map {|w| w.upcase + "!"}
-  return a[] yield(a[])
+  return a yield(a[index])
 end
 
 def long_planeteer_calls(calls_long)
