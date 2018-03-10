@@ -4,12 +4,6 @@ end
 
 def summon_captain_planet(a)
   a.map { |w| w.upcase + "!"}
-  if a.include?
-    true
-  else
-    false
-  end
-  a
 end
 
 def long_planeteer_calls# code an argument here
