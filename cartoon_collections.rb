@@ -2,8 +2,8 @@ def roll_call_dwarves(name)
   name.each_with_index { |dwarf, i| puts "#{i+1}" "#{dwarf}" }
 end
 
-def summon_captain_planet(array)
-  array.upcase
+def summon_captain_planet(a)
+  a.map { |w| "#{w.}.upcase"}
 end
 
 def long_planeteer_calls# code an argument here
