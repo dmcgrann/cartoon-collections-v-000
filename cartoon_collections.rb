@@ -4,7 +4,8 @@ end
 
 def summon_captain_planet(a)
   b = a.split
-  b.map { |w| w.upcase + "!"}
+  b.map { |w| w.upcase + "!" }
+  b.join(" ")
 end
 
 def long_planeteer_calls# code an argument here
