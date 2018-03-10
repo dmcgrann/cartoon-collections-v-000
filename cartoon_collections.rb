@@ -3,7 +3,7 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(a)
-  a.split.map {|w| w.upcase + "!" }
+  a.map {|w| w.to_s.upcase + "!" }.join(", ")
 end
 
 def long_planeteer_calls# code an argument here
