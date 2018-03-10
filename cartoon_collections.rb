@@ -3,11 +3,13 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(a)
-  a.map {|w|}
+  a.map {|w| w.upcase + "!"}
+  return a yield(a[i])
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls_long)
+  i = 0
+  while i < calls.long
 end
 
 def find_the_cheese# code an argument here
