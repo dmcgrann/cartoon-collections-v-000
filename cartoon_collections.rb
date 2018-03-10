@@ -4,11 +4,16 @@ end
 
 def summon_captain_planet(a)
   a.map {|w| w.upcase + "!"}
-  return a yield(a[index])
 end
 
 def long_planeteer_calls(calls_long)
-
+  calls_long.each do |x|
+    if x.length > 4
+      return true
+    else
+      false
+    end
+  end
 end
 
 def find_the_cheese# code an argument here
