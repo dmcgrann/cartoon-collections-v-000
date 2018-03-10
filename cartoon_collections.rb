@@ -4,6 +4,7 @@ end
 
 def summon_captain_planet(a)
   a.map{ |w| puts w.upcase + "!" }
+  a
 end
 
 def long_planeteer_calls# code an argument here
