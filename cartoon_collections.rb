@@ -3,7 +3,7 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(a)
-  a.map{ |w| puts w.upcase + "!" }
+  a.map{ |w| puts "#{w.upcase}" + "!" }
   a
 end
 
