@@ -5,6 +5,7 @@ end
 def summon_captain_planet(array)
   a1 = []
   array.each { |w| a1 << w.upcase + "!"}
+  a1
 end
 
 def long_planeteer_calls# code an argument here
